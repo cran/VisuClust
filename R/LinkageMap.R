@@ -14,8 +14,7 @@
 #MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #GNU Lesser General Public License for more details.
 
-#You should have received a copy of the GNU Lesser General Public License
-#along with the VisuClust package.  If not, see <http://www.gnu.org/licenses/>.
+#You can find a copy of the GNU Lesser General Public License at <http://www.r-project.org/Licenses/> or <http://www.gnu.org/licenses/>.
 
 
 
