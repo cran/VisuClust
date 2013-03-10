@@ -1,8 +1,8 @@
 Package: VisuClust
 Type: Package
 Title: VisuClust
-Version: 1.0
-Date: 2012-11-08
+Version: 1.1
+Date: 2012-2-15
 Authors@R: c(person("Michael", "Sieger", role=c("cre","aut"),
         email="michael.sieger@student.hswt.de"), person("Georg",
         "Ohmayer", role=c("aut", "ths"),
@@ -16,6 +16,7 @@ Description: The VisuClust package provides functions to display
         multivariate data, based on Sammon's nonlinear mapping.
 URL: http://www.hswt.de/fh/fakultaet/gl/dozenten/ohmayer.html
 License: LGPL (>= 3)
-Packaged: 2012-12-14 13:15:13 UTC; michi
+Packaged: 2013-03-10 15:18:28 UTC; Tamaran
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2012-12-14 17:55:47
+Date/Publication: 2013-03-10 16:58:52
