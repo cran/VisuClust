@@ -17,9 +17,10 @@ A estimation of the density function for the distances d[i,j] (for example with 
 \link{density}) is helpful for finding the ideal thresholds t[k] (=local minima in the density function). 
 }
 \usage{
-LinkageMap(xSammon, dist, lineTypes=c("solid","dotted", "dashed"), lineColors=c("red","green","blue"), 
-		lineWidths=c(1,1,1),labels = NULL, cluster = NULL, maxValue=0.5, legendDigits = 2, xlab = "", ylab = "", 
-		main = "")
+LinkageMap(xSammon, dist, lineTypes=c("solid","dotted", "dashed"), 
+	lineColors=c("red","green","blue"), lineWidths=c(1,1,1), 
+	labels = NULL, cluster = NULL, maxValue=0.5, legendDigits = 2, 
+	xlab = "", ylab = "", main = "")
 }
 
 \arguments{
@@ -64,7 +65,7 @@ LinkageMap(xSammon, dist, lineTypes=c("solid","dotted", "dashed"), lineColors=c(
 }
 }
 \author{
-Michael Sieger <michael.sieger@student.hswt.de>	\cr
+Michael Sieger <sieger-michael@web.de>	\cr
 Georg Ohmayer <georg.ohmayer@hswt.de>
 }
 \examples{

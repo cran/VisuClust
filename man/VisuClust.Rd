@@ -25,6 +25,6 @@ Georg Ohmayer, Michael Sieger
 }
 
 \author{
-Michael Sieger <michael.sieger@student.hswt.de>	\cr
+Michael Sieger <sieger-michael@web.de>	\cr
 Georg Ohmayer <georg.ohmayer@hswt.de>
 }

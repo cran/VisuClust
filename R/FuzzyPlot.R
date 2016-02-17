@@ -1,4 +1,4 @@
-#Author: Michael Sieger <michael.sieger@student.hswt.de>
+#Author: Michael Sieger <sieger-michael@web.de>
 #Project responsible: Dr. Georg Ohmayer <georg.ohmayer@hswt.de>
 #Copyrights: Hochschule Weihenstephan-Triesdorf
 
@@ -22,8 +22,6 @@
 FuzzyPlot <- function(xSammon, probs, clusterColors=rainbow(dim(probs)[2]), clusterSymbols=rep(21,dim(probs)[2]), 
 			labels=NULL, labelSize=c(0.6, 1.0), xlab="", ylab="", main="", enableLegend=TRUE, cex=c(0.7, 1.4))
 {
-	
-	library(aplpack)
 	
 	#define variables to prevent them beeing global visible
 	fcContext.n = 0
@@ -119,8 +117,8 @@ FuzzyPlot <- function(xSammon, probs, clusterColors=rainbow(dim(probs)[2]), clus
 		}
 	}
 	
-	#rgblist: eine [3,n] Matrix mit den Farbanteilen
-	#W: eine list mit warscheinlichkeiten für die intensität der farbe
+	#rgblist: a [3,n] matrix with the color parts
+	#W: a list with probabilities for the intensity of the color
 	fcContext.rgbList2color <- function(rgblist, W)
 	{
 		col <- rep(NA, fcContext.n)

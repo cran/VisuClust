@@ -1,1 +1,4 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "col2rgb", "dev.flush", "dev.hold", "rainbow", "rgb")
+importFrom("graphics", "legend", "par", "plot", "segments", "text")
+import(aplpack)

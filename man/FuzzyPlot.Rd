@@ -16,8 +16,10 @@ A single cluster can be selected too by setting the slider in position 1 to nClu
 label size (if labels are set) shows the probability of membership to the selected cluster. 	
 }
 \usage{
-FuzzyPlot(xSammon, probs, clusterColors=rainbow(dim(probs)[2]), clusterSymbols=rep(21,dim(probs)[2]), labels=NULL, 
-		labelSize=c(0.6, 1.0), xlab="", ylab="", main="", enableLegend=TRUE, cex=c(0.7, 1.4))
+FuzzyPlot(xSammon, probs, clusterColors=rainbow(dim(probs)[2]), 
+	clusterSymbols=rep(21,dim(probs)[2]), labels=NULL, 
+	labelSize=c(0.6, 1.0), xlab="", ylab="", main="", 
+	enableLegend=TRUE, cex=c(0.7, 1.4))
 }
 
 \arguments{
@@ -70,7 +72,7 @@ FuzzyPlot(xSammon, probs, clusterColors=rainbow(dim(probs)[2]), clusterSymbols=r
 }
 
 \author{
-Michael Sieger <michael.sieger@student.hswt.de>	\cr
+Michael Sieger <sieger-michael@web.de>	\cr
 Georg Ohmayer <georg.ohmayer@hswt.de>
 }
 
@@ -87,7 +89,8 @@ D <- dist(M)
 S <- sammon(D)
 F <- fanny(D, 6)
 
-FuzzyPlot(S$points, F$membership, labels=MilchSmall[,2], clusterColors=c("red", "green", "magenta", "yellow", "blue", "black"))
+FuzzyPlot(S$points, F$membership, labels=MilchSmall[,2], 
+	clusterColors=c("red", "green", "magenta", "yellow", "blue", "black"))
 
 
 }

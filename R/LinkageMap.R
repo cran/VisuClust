@@ -1,4 +1,4 @@
-#Author: Michael Sieger <michael.sieger@student.hswt.de>
+#Author: Michael Sieger <sieger-michael@web.de>
 #Project responsible: Dr. Georg Ohmayer <georg.ohmayer@hswt.de>
 #Copyrights: Hochschule Weihenstephan-Triesdorf
 
@@ -23,8 +23,6 @@ LinkageMap <- function(xSammon, dist, lineTypes=c("solid","dotted", "dashed"), l
 			lineWidths=c(1,1,1), labels = NULL, cluster = NULL, maxValue=0.5, legendDigits = 2, xlab = "", 
 			ylab = "", main = "")
 	{	 
-
-	library(aplpack)
 
 	# checking input
 	xdim = dim(xSammon)
